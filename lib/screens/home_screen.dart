@@ -170,6 +170,7 @@ class _HomeScreenState extends State<HomeScreen> {
               icon: Icon(Icons.delete_forever),
               onPressed: () => {
                 //********implemenet delete*************/
+                _delete(context, todoList[index]),
               },
             ),
           ),
